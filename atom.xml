@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-06-08T06:04:49.085Z</updated>
+  <updated>2021-06-08T06:07:26.601Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo使用心得</title>
+    <link href="https://long-louis.github.io/2021/06/08/hexo-shi-yong-xin-de/"/>
+    <id>https://long-louis.github.io/2021/06/08/hexo-shi-yong-xin-de/</id>
+    <published>2021-06-08T06:07:26.000Z</published>
+    <updated>2021-06-08T06:07:26.601Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>helloworld</title>
