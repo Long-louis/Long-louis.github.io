@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo调试心得</title>
+      <link href="/2021/06/08/hexo-diao-shi-xin-de/"/>
+      <url>/2021/06/08/hexo-diao-shi-xin-de/</url>
+      
+        <content type="html"><![CDATA[<p>hexo调试好麻烦</p><p>不停的重复hexo clean &amp;&amp; hexo g</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/06/07/hello-world/"/>
       <url>/2021/06/07/hello-world/</url>
