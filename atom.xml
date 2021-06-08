@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-06-08T06:13:20.508Z</updated>
+  <updated>2021-06-08T06:14:28.629Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -21,11 +21,13 @@
     <link href="https://long-louis.github.io/2021/06/08/blogs/"/>
     <id>https://long-louis.github.io/2021/06/08/blogs/</id>
     <published>2021-06-08T06:13:20.000Z</published>
-    <updated>2021-06-08T06:13:20.508Z</updated>
+    <updated>2021-06-08T06:14:28.629Z</updated>
     
     
     
     
+    
+    <category term="hexo" scheme="https://long-louis.github.io/tags/hexo/"/>
     
   </entry>
   
