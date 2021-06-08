@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>下龙湾</title>
+  
+  <subtitle>Long&#39;s blog</subtitle>
+  <link href="https://long-louis.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://long-louis.github.io/"/>
+  <updated>2021-06-08T04:54:44.838Z</updated>
+  <id>https://long-louis.github.io/</id>
+  
+  <author>
+    <name>下龙湾</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo</title>
+    <link href="https://long-louis.github.io/2021/06/08/hexo/"/>
+    <id>https://long-louis.github.io/2021/06/08/hexo/</id>
+    <published>2021-06-08T04:54:05.000Z</published>
+    <updated>2021-06-08T04:54:44.838Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;i-don’t-know-what-happened&quot;&gt;&lt;a href=&quot;#i-don’t-know-what-happened&quot; class=&quot;headerlink&quot; title=&quot;i don’t know what happened&quot;&gt;&lt;/a&gt;i don’t</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>article title</title>
+    <link href="https://long-louis.github.io/2021/06/07/article-title/"/>
+    <id>https://long-louis.github.io/2021/06/07/article-title/</id>
+    <published>2021-06-07T12:11:31.000Z</published>
+    <updated>2021-06-07T12:24:43.260Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;title-test&quot;&gt;&lt;a href=&quot;#title-test&quot; class=&quot;headerlink&quot; title=&quot;title test&quot;&gt;&lt;/a&gt;title test&lt;/h1&gt;&lt;h2 id=&quot;title-test-1&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://long-louis.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://long-louis.github.io/2021/06/07/hello-world/"/>
+    <id>https://long-louis.github.io/2021/06/07/hello-world/</id>
+    <published>2021-06-07T11:48:47.541Z</published>
+    <updated>2021-06-07T11:48:47.542Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
