@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #c6e2ff 100%);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .text-color {
@@ -431,7 +431,7 @@ header .side-nav .social-link {
     }
 }
 
-@-webkit-keyframes scroll-down {
+/*@-webkit-keyframes scroll-down {
     0% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -452,7 +452,7 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-}
+}*/
 
 @-o-keyframes scroll-down {
     0% {
@@ -477,7 +477,7 @@ header .side-nav .social-link {
     }
 }
 
-@keyframes scroll-down {
+/*@keyframes scroll-down {
     0% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -498,7 +498,7 @@ header .side-nav .social-link {
         filter: alpha(opacity=40);
         top: 0;
     }
-}
+}*/
 
 .cover-social-link {
     position: relative;
