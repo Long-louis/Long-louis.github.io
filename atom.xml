@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-08-02T11:28:50.220Z</updated>
+  <updated>2021-08-02T11:33:18.438Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多终端部署</title>
+    <link href="https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/"/>
+    <id>https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/</id>
+    <published>2021-08-02T11:33:18.000Z</published>
+    <updated>2021-08-02T11:33:18.438Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hello world</title>
