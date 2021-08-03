@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-08-02T11:33:18.438Z</updated>
+  <updated>2021-08-03T04:49:28.367Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -17,15 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>多终端部署</title>
+    <title>多终端多平台部署</title>
     <link href="https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/"/>
     <id>https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/</id>
     <published>2021-08-02T11:33:18.000Z</published>
-    <updated>2021-08-02T11:33:18.438Z</updated>
+    <updated>2021-08-03T04:49:28.367Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;仓库的名字可以随便取，最后只需修改仓库的路径与个人用户名相同即可&lt;/p&gt;
+</summary>
+        
+      
     
     
     
     
+    <category term="gitee" scheme="https://long-louis.github.io/tags/gitee/"/>
+    
+    <category term="coding" scheme="https://long-louis.github.io/tags/coding/"/>
+    
+    <category term="github" scheme="https://long-louis.github.io/tags/github/"/>
+    
+    <category term="阿里云" scheme="https://long-louis.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+    <category term="git" scheme="https://long-louis.github.io/tags/git/"/>
     
   </entry>
   

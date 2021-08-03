@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>多终端部署</title>
+      <title>多终端多平台部署</title>
       <link href="/2021/08/02/duo-zhong-duan-bu-shu/"/>
       <url>/2021/08/02/duo-zhong-duan-bu-shu/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>仓库的名字可以随便取，最后只需修改仓库的路径与个人用户名相同即可</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> gitee </tag>
+            
+            <tag> coding </tag>
+            
+            <tag> github </tag>
+            
+            <tag> 阿里云 </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
       
     </entry>
     
