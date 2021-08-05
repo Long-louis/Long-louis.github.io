@@ -103,8 +103,12 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/Long-louis/Long-louis.github.io
-  branch: master
+  repo: 
+	  github: git@github.com:Long-louis/Long-louis.github.io.git,master
+    coding: git@e.coding.net:ninestars-lake/ninestars-lake/ninestars-lake.git,master
+    gitee: git@gitee.com:ninestars-lake/ninestars-lake.git,master
+#  repository: https://github.com/Long-louis/Long-louis.github.io
+#  branch: master
 #搜索设置
 search:
   path: search.xml
