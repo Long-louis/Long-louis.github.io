@@ -113,3 +113,15 @@
    -  在链接文本的`href`属性中, 设置属性值为 # 名字的形式,如`< a href="#wo">`第2集`</a>`
    - 找到目标位置标签,里面添加个`id`属性 = 刚才的名字,如:`<h3 id="two">`第2集介绍`</h3>`
 
+## 注释和特殊字符
+
+### 注释
+
+`<!--注释语句-->  或  快捷键:ctrl+ / `
+
+![special character](https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/Special%20characters.png)
+
+1. no-break space
+2. less than
+3. greater than
+
