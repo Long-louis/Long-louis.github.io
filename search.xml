@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>python扩展包安装</title>
+      <link href="/2021/08/06/python-kuo-zhan-bao-an-zhuang/"/>
+      <url>/2021/08/06/python-kuo-zhan-bao-an-zhuang/</url>
+      
+        <content type="html"><![CDATA[<h3 id="安装扩展包"><a href="#安装扩展包" class="headerlink" title="安装扩展包"></a>安装扩展包</h3><pre class="line-numbers language-none"><code class="language-none">pip install package-name -i mirror-source-address<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="查看pip安装列表"><a href="#查看pip安装列表" class="headerlink" title="查看pip安装列表"></a>查看pip安装列表</h3><pre class="line-numbers language-none"><code class="language-none">pip list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="常用pip镜像源"><a href="#常用pip镜像源" class="headerlink" title="常用pip镜像源"></a>常用pip镜像源</h3><pre class="line-numbers language-none"><code class="language-none">清华：https://pypi.tuna.tsinghua.edu.cn/simple阿里云：http://mirrors.aliyun.com/pypi/simple/中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/华中理工大学：http://pypi.hustunique.com/山东理工大学：http://pypi.sdutlinux.org/豆瓣：http://pypi.douban.com/simple/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>多终端多平台部署</title>
       <link href="/2021/08/02/duo-zhong-duan-bu-shu/"/>
       <url>/2021/08/02/duo-zhong-duan-bu-shu/</url>

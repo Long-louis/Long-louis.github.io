@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-08-03T04:49:28.367Z</updated>
+  <updated>2021-08-06T00:49:06.135Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python扩展包安装</title>
+    <link href="https://long-louis.github.io/2021/08/06/python-kuo-zhan-bao-an-zhuang/"/>
+    <id>https://long-louis.github.io/2021/08/06/python-kuo-zhan-bao-an-zhuang/</id>
+    <published>2021-08-06T00:43:28.000Z</published>
+    <updated>2021-08-06T00:49:06.135Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;安装扩展包&quot;&gt;&lt;a href=&quot;#安装扩展包&quot; class=&quot;headerlink&quot; title=&quot;安装扩展包&quot;&gt;&lt;/a&gt;安装扩展包&lt;/h3&gt;&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://long-louis.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>多终端多平台部署</title>
