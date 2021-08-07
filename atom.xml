@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2021-08-06T00:49:06.135Z</updated>
+  <updated>2021-08-07T05:25:07.672Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html学习笔记</title>
+    <link href="https://long-louis.github.io/2021/08/07/html/"/>
+    <id>https://long-louis.github.io/2021/08/07/html/</id>
+    <published>2021-08-07T06:37:00.000Z</published>
+    <updated>2021-08-07T05:25:07.672Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;参考链接&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;标签缩写查询网站：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;学习视频教程网站：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;一、第一个HTML页面&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端学习" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="html" scheme="https://long-louis.github.io/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>python扩展包安装</title>
