@@ -103,32 +103,4 @@
     
   </entry>
   
-  <entry>
-    <title>hello world</title>
-    <link href="https://long-louis.github.io/2021/06/08/blogs/"/>
-    <id>https://long-louis.github.io/2021/06/08/blogs/</id>
-    <published>2021-06-08T06:13:20.000Z</published>
-    <updated>2021-08-02T11:28:50.220Z</updated>
-    
-    
-    
-    
-    
-    <category term="hexo" scheme="https://long-louis.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>helloworld</title>
-    <link href="https://long-louis.github.io/2021/06/08/helloworld/"/>
-    <id>https://long-louis.github.io/2021/06/08/helloworld/</id>
-    <published>2021-06-08T06:04:49.000Z</published>
-    <updated>2021-08-02T11:28:50.220Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
 </feed>
