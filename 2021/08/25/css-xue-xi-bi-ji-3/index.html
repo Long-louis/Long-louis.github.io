@@ -372,7 +372,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-25
+                    2021-08-26
                 </div>
                 
 
@@ -436,7 +436,7 @@
 </tr>
 </tbody></table>
 <h3 id="边偏移"><a href="#边偏移" class="headerlink" title="边偏移"></a>边偏移</h3><p>边偏移就是定位的盒子移动到最终位置。有<code>top、 bottom、lef</code>t和 <code>right </code>4个属性</p>
-<p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/%E8%BE%B9%E5%81%8F%E7%A7%BB.png" alt="边偏移"></p>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E8%BE%B9%E5%81%8F%E7%A7%BB.png" alt="边偏移"></p>
 <h2 id="静态定位"><a href="#静态定位" class="headerlink" title="静态定位"></a>静态定位</h2><p>静态定位是元素的<em>默认定位方式,无定位的意思</em>。了解即可</p>
 <ul>
 <li>静态定位按照标准流特性摆放位置,它没有边偏移</li>
@@ -477,12 +477,10 @@
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">选择器</span><span class="token punctuation">{</span> <span class="token property">position</span><span class="token punctuation">:</span> sticky<span class="token punctuation">;</span><span class="token property">top</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>粘性定位的特点<br>1.以浏览器的可视窗口为参照点移动元素(固定定位特点)<br>2.粘性定位<strong>占有原先的位置</strong>(相对定位特点)<br>3.必须添加top、left、 right、 bottom其中一个才有效<br>跟页面滚动搭配使用。兼容性较差,IE不支持。</p>
-<p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/%E5%AE%9A%E4%BD%8D%E6%80%BB%E7%BB%93.png" alt="定位总结"></p>
 <h2 id="定位叠放次序z-index"><a href="#定位叠放次序z-index" class="headerlink" title="定位叠放次序z- - index"></a>定位叠放次序z- - index</h2><p>在使用定位布局时,可能会出现盒子重叠的情况。此时,可以使用z- index来控制盒子的前后次序（z轴）<br>语法</p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">选择器</span><span class="token punctuation">{</span>z- <span class="token property">index</span><span class="token punctuation">:</span>1<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-
-
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%AE%9A%E4%BD%8D%E6%80%BB%E7%BB%93.png" alt="定位总结"></p>
 <ul>
 <li>数值可以是正整数、负整数或0,默认是auto,数值越大,盒子越靠上</li>
 <li>如果属性值相同,则按照书写顺序,后来居上</li>
@@ -499,7 +497,7 @@
 <h3 id="绝对定位-固定定位-会完全压住盒子"><a href="#绝对定位-固定定位-会完全压住盒子" class="headerlink" title="绝对定位(固定定位)会完全压住盒子"></a>绝对定位(固定定位)会完全压住盒子</h3><p>浮动元素不同,只会压住它下面标准流的盒子,但是不会压住下面标准流盒子里面的文字(图片)<br>但是绝对定位(固定定位)会压住下面标准流所有的内容。<br>浮动之所以不会压住文字,因为浮动产生的目的最初是为了做文字环绕效果的。文字会围绕浮动元素</p>
 <h3 id="如果一个盒子既有left属性也有right属性，则默认会执行left属性。同理优先执行top属性"><a href="#如果一个盒子既有left属性也有right属性，则默认会执行left属性。同理优先执行top属性" class="headerlink" title="如果一个盒子既有left属性也有right属性，则默认会执行left属性。同理优先执行top属性"></a>如果一个盒子既有left属性也有right属性，则默认会执行left属性。同理优先执行top属性</h3><h1 id="元素的显示与隐藏"><a href="#元素的显示与隐藏" class="headerlink" title="元素的显示与隐藏"></a>元素的显示与隐藏</h1><h2 id="display属性"><a href="#display属性" class="headerlink" title="display属性"></a>display属性</h2><p><code>display</code>属性用于设置一个元素应如何显示。<br><code>display:none;</code>隐藏对象<br><code>display:block;</code>除了转换为块级元素之外,同时还有显示元素的意思<br><code>display</code>隐藏元素后,<strong>不再占有原来的位置</strong><br>后面应用及其广泛,搭配JS可以做很多的网页特效。</p>
 <h2 id="visibility可见性"><a href="#visibility可见性" class="headerlink" title="visibility可见性"></a>visibility可见性</h2><p><code>visibility</code>属性用于指定一个元素应可见还是隐藏<br><code>visibility: visible;</code>元素可视<br><code>visibility: hidden;</code>元素隐藏<br><code>visibility</code><strong>隐藏元素后,继续占有原来的位置</strong><br>如果隐藏元素想要原来位置,就用 <code>visibility: hidden</code><br>如果隐藏元素不想要原来位置,就用<code> display:none</code>(用处更多重点)</p>
-<h2 id="overflow溢出"><a href="#overflow溢出" class="headerlink" title="overflow溢出"></a>overflow溢出</h2><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/OVERFLOW.png" alt="overflow"></p>
+<h2 id="overflow溢出"><a href="#overflow溢出" class="headerlink" title="overflow溢出"></a>overflow溢出</h2><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/overflow.png" alt="overflow"></p>
 <p>一般情况下,我们都不想让溢出的内容显示出来,因为溢出的部分会影响布局<br>但是如果有定位的盒子,请慎用 <code>overflow: hidden</code>因为它会隐藏多余的部分。</p>
 <h2 id="土豆网鼠标经过案例"><a href="#土豆网鼠标经过案例" class="headerlink" title="土豆网鼠标经过案例"></a>土豆网鼠标经过案例</h2><p>当我们鼠标经过了士豆这个盒子,就让里面黑色遮罩层显示出来。</p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.tudou:hover .mask</span> <span class="token punctuation">{</span>
@@ -546,7 +544,7 @@
 </ol>
 <p>推荐下载网站<br><a target="_blank" rel="noopener" href="http://icomoon.io/">icomoon字库</a><br>icomoon成立于2011年推出了第一个自定义图标字体生成器,它允许用户选择所需要的图标,使它们成<br>字型。该字库内容种类繁多,非常全面,唯的遗憾是国外服务器,打开网速较慢。<br><a target="_blank" rel="noopener" href="http://www.iconfont.cn/">阿里iconfont字库</a><br>这个是阿里M2UX的个 iconfont字体图标字库,包含了淘宝图标库和阿里妈玛妈图标库。可以使用AI<br>制作图标上传生成。重点是,免费!</p>
 <h3 id="字体图标的追加"><a href="#字体图标的追加" class="headerlink" title="字体图标的追加"></a>字体图标的追加</h3><p>如果工作中,原来的字体图标不够用了,我们需要添加新的字体图标到原来的字体文件中。<br>把压缩包里面的<code>selection. json</code>从新上传,然后选中自己想要新的图标,从新下载压缩包,并替换原来的文件即可。</p>
-<h2 id="CSS三角"><a href="#CSS三角" class="headerlink" title="CSS三角"></a>CSS三角</h2><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/css%E4%B8%89%E8%A7%92.png" alt="css三角"></p>
+<h2 id="CSS三角"><a href="#CSS三角" class="headerlink" title="CSS三角"></a>CSS三角</h2><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/css%E4%B8%89%E8%A7%92.png" alt="css三角"></p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"> <span class="token selector">.box1</span> <span class="token punctuation">{</span>
             <span class="token property">width</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
             <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
@@ -608,8 +606,8 @@
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token property">display</span><span class="token punctuation">:</span> inline-block
 <span class="token property">vertical-align</span><span class="token punctuation">:</span> baseline /top/ middle/ bottom/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/vertica-align.png" alt="vertical-align"></p>
-<p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/%E5%AD%97%E7%AC%A6%E7%BA%BF.png" alt="字符线"></p>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/vertical-align.png" alt="vertical-align"></p>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%AD%97%E7%AC%A6%E7%BA%BF.png" alt="字符线"></p>
 <h3 id="解决图片底部默认空白缝隙的问题"><a href="#解决图片底部默认空白缝隙的问题" class="headerlink" title="解决图片底部默认空白缝隙的问题"></a>解决图片底部默认空白缝隙的问题</h3><p>bug:图片底侧会有一个空白缝隙,原因是行内块元素会和文字的基线对齐。<br>主要解决方法有两种:</p>
 <ol>
 <li>给图片添加 vertical- align; middle top bottom等。(提倡使用的)</li>
@@ -632,7 +630,7 @@
          <span class="token property">-webkit-box-orient</span><span class="token punctuation">:</span> vertical<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>更推荐让后台人员来做这个效果,因为后台人员可以设置显示多少个字,操作更简单。</p>
-<h2 id="常见布局技巧"><a href="#常见布局技巧" class="headerlink" title="常见布局技巧"></a>常见布局技巧</h2><h3 id="margin负值的巧妙运用"><a href="#margin负值的巧妙运用" class="headerlink" title="margin负值的巧妙运用"></a>margin负值的巧妙运用</h3><h4 id="一"><a href="#一" class="headerlink" title="一"></a>一</h4><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/margin%E8%B4%9F%E5%80%BC%E7%9A%84%E8%BF%90%E7%94%A8.png" alt="margin负值的巧妙运用"></p>
+<h2 id="常见布局技巧"><a href="#常见布局技巧" class="headerlink" title="常见布局技巧"></a>常见布局技巧</h2><h3 id="margin负值的巧妙运用"><a href="#margin负值的巧妙运用" class="headerlink" title="margin负值的巧妙运用"></a>margin负值的巧妙运用</h3><h4 id="一"><a href="#一" class="headerlink" title="一"></a>一</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/margin%E8%B4%9F%E5%80%BC%E5%B7%A7%E5%A6%99%E8%BF%90%E7%94%A8.png" alt="margin负值巧妙运用"></p>
 <p>要实现每一个盒子的四周都有相同的橙色边框，可以令所有边框<code>margin-left:-1px</code>，这样子原本重合导致加粗的边框会变成正常宽度的边框，实现完美的显示效果。</p>
 <h4 id="二"><a href="#二" class="headerlink" title="二"></a>二</h4><p>实现当鼠标经过时，盒子的边框全都变色</p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"> <span class="token selector">ul li:hover</span> <span class="token punctuation">{</span>
@@ -677,7 +675,7 @@
     &lt;/div&gt;
 &lt;/body&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="行内块巧妙运用"><a href="#行内块巧妙运用" class="headerlink" title="行内块巧妙运用"></a>行内块巧妙运用</h3><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/%E8%A1%8C%E5%86%85%E5%9D%97%E5%85%83%E7%B4%A0.png" alt="行内块元素"></p>
+<h3 id="行内块巧妙运用"><a href="#行内块巧妙运用" class="headerlink" title="行内块巧妙运用"></a>行内块巧妙运用</h3><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E8%A1%8C%E5%86%85%E5%9D%97%E5%B7%A7%E5%A6%99%E8%BF%90%E7%94%A8.png" alt="image-20210826124020823"></p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">&lt;style&gt;
         *</span> <span class="token punctuation">{</span>
             <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
@@ -738,7 +736,7 @@
     &lt;/div&gt;
 &lt;/body&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="css三角强化的巧妙运用"><a href="#css三角强化的巧妙运用" class="headerlink" title="css三角强化的巧妙运用"></a>css三角强化的巧妙运用</h3><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/master/blog/image-20210825164837215.png" alt="三角运用"></p>
+<h3 id="css三角强化的巧妙运用"><a href="#css三角强化的巧妙运用" class="headerlink" title="css三角强化的巧妙运用"></a>css三角强化的巧妙运用</h3><p><img src="https://gitee.com/ninestars-lake/ninestars-lake/raw/bd3453c42711dda44aa25753bb296e8598ccb071/blog/image-20210825164837215.png" alt="三角运用"></p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.box1</span> <span class="token punctuation">{</span>
            <span class="token property">width</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
            <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
