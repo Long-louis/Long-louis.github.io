@@ -1,11 +1,11 @@
 ---
 title: CSS学习笔记(1)
 author: 下龙湾
-top: true
-categories:前端
+categories: 前端学习
 tags:
   - css
 toc: true
+date: 2021-08-18 13:46:00
 ---
 
 # CSS简介
