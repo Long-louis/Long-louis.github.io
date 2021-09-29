@@ -372,7 +372,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-08-18
+                    2021-09-06
                 </div>
                 
 
@@ -737,7 +737,7 @@ td,th</span> <span class="token punctuation">{</span>
 <li>缺点:无法显示溢出的部分 </li>
 </ul>
 <h4 id="after伪元素法"><a href="#after伪元素法" class="headerlink" title="after伪元素法"></a>after伪元素法</h4><p>：after方式是额外标签法的升级版。也是给父元素添加</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.clearfix:after</span> <span class="token punctuation">{</span>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.clearfix::after</span> <span class="token punctuation">{</span>
     <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>
     <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
     <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
@@ -750,9 +750,9 @@ td,th</span> <span class="token punctuation">{</span>
 
 
 
-<h4 id="双伪元素清除浮动"><a href="#双伪元素清除浮动" class="headerlink" title="双伪元素清除浮动"></a>双伪元素清除浮动</h4><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.clearfix:before,.clearfix:after</span> <span class="token punctuation">{</span>
+<h4 id="双伪元素清除浮动"><a href="#双伪元素清除浮动" class="headerlink" title="双伪元素清除浮动"></a>双伪元素清除浮动</h4><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.clearfix::before,.clearfix::after</span> <span class="token punctuation">{</span>
     <span class="token property">content</span><span class="token punctuation">:</span><span class="token string">""</span><span class="token punctuation">;</span>
-    <span class="token property">display</span><span class="token punctuation">:</span>table<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span>table<span class="token punctuation">;</span> <span class="token comment">/* 转换为块级元素并在一行显示 */</span>
 <span class="token punctuation">}</span>
 <span class="token selector">.clearfix:after</span> <span class="token punctuation">{</span>
     <span class="token property">clear</span><span class="token punctuation">:</span>both<span class="token punctuation">;</span>
@@ -1128,7 +1128,7 @@ td,th</span> <span class="token punctuation">{</span>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">15.1k</span>&nbsp;字
+                class="white-color">16.8k</span>&nbsp;字
             
             
             
