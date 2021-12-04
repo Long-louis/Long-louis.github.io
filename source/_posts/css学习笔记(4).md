@@ -1,7 +1,6 @@
 ---
 title: CSS学习笔记(4)
 author: 下龙湾
-top: true
 categories: 前端
 tags:
   - css
