@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo&amp;git使用教程, Long;Python;C;Life">
+    <meta name="keywords" content="linux_QA, Long;Python;C;Life">
     <meta name="description" content="下龙湾的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo&amp;git使用教程 | 下龙湾</title>
+    <title>linux_QA | 下龙湾</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -219,12 +219,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo&amp;git使用教程</h1>
+                    <h1 class="description center-align post-title">linux_QA</h1>
                 </div>
             </div>
         </div>
@@ -340,12 +340,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                            <a href="/tags/git/">
-                                <span class="chip bg-color">git</span>
+                            <a href="/tags/linux/">
+                                <span class="chip bg-color">linux</span>
                             </a>
                         
                     </div>
@@ -360,21 +356,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-02
+                    2021-12-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-09-29
+                    2021-12-04
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    140
+                    206
                 </div>
                 
 
@@ -404,32 +400,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="hexo同步方法"><a href="#hexo同步方法" class="headerlink" title="hexo同步方法"></a>hexo同步方法</h2><pre class="line-numbers language-none"><code class="language-none">hexo new [layout] title<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<blockquote>
-<blockquote>
-<p>新建页面</p>
+                <h1 id="shell-内部命令-amp-外部命令"><a href="#shell-内部命令-amp-外部命令" class="headerlink" title="shell 内部命令&amp;外部命令"></a>shell 内部命令&amp;外部命令</h1><h2 id="内部命令"><a href="#内部命令" class="headerlink" title="内部命令"></a>内部命令</h2><blockquote>
+<p>集成于Shell解释器程序内部的一些特殊指令，也称内建（Built-in）命令，属于Shell的一部分，没有单独对应的系统文件，自动载入内存，可以直接使用</p>
 </blockquote>
-<blockquote>
-<p>[layout]为页面布局，在_config.yml中规定默认布局，不填写[layout]即使用默认布局</p>
+<h2 id="外部命令"><a href="#外部命令" class="headerlink" title="外部命令"></a>外部命令</h2><blockquote>
+<p>Linux系统中能够完成特定功能的脚本文件或二进制程序，属于Shell解释器程序之外的命令，每个外部命令对于了系统中的一个文件，必须知道其文件位置，由Shell加载后才能执行<code>/bin,/usr/bin,/usr/local/bin</code>等</p>
 </blockquote>
-</blockquote>
-<pre class="line-numbers language-none"><code class="language-none">hexo g #生成静态文件 -d文件生成后立即布署网站
-hexo d #布署网站<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-none"><code class="language-none">hexo publish [layout] &lt;filename&gt;
-# 发表草稿<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-none"><code class="language-none">hexo sever #启动本地服务器 默认为http://localhost:4000/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-none"><code class="language-none">hexo clean #清除缓存文件（当对站点的更改不生效时可尝试clean）<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h2 id="git-同步方法"><a href="#git-同步方法" class="headerlink" title="git 同步方法"></a>git 同步方法</h2><h3 id="git上传"><a href="#git上传" class="headerlink" title="git上传"></a>git上传</h3><pre class="line-numbers language-none"><code class="language-none">git add .
-git commit -m "xxxxx" #引号中为同步评语
-git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="git下载"><a href="#git下载" class="headerlink" title="git下载"></a>git下载</h3><pre class="line-numbers language-none"><code class="language-none">git pull<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
+<ul>
+<li><code>help</code>和<code>enable</code>可判断命令为内或外部命令</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">help + 参数
+命令 + enable<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li><code>type</code>可查询到指令的内外部命令信息：有路径是外部命令，内部则会告知内嵌</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">type + 参数<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
                 
             </div>
@@ -464,12 +449,8 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
-                                <a href="/tags/git/">
-                                    <span class="chip bg-color">git</span>
+                                <a href="/tags/linux/">
+                                    <span class="chip bg-color">linux</span>
                                 </a>
                             
                         </div>
@@ -513,17 +494,18 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/08/06/python-kuo-zhan-bao-an-zhuang/">
+                <a href="/2021/12/04/linux-qa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="python扩展包安装">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="linux_QA">
                         
-                        <span class="card-title">python扩展包安装</span>
+                        <span class="card-title">linux_QA</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -533,9 +515,9 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -544,11 +526,12 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/python/">
-                        <span class="chip bg-color">python</span>
+                    <a href="/tags/linux/">
+                        <span class="chip bg-color">linux</span>
                     </a>
                     
                 </div>
@@ -562,13 +545,13 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/02/markdown-zong-jie/">
+                <a href="/2021/09/29/css-xue-xi-bi-ji-4/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="markdown总结">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="CSS学习笔记(4)">
                         
-                        <span class="card-title">markdown总结</span>
+                        <span class="card-title">CSS学习笔记(4)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -579,15 +562,27 @@ git push<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            下龙湾
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/css/">
+                        <span class="chip bg-color">css</span>
+                    </a>
+                    
                 </div>
                 
             </div>

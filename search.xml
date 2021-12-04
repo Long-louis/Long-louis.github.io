@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>linux_QA</title>
+      <link href="/2021/12/04/linux-qa/"/>
+      <url>/2021/12/04/linux-qa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="shell-内部命令-amp-外部命令"><a href="#shell-内部命令-amp-外部命令" class="headerlink" title="shell 内部命令&amp;外部命令"></a>shell 内部命令&amp;外部命令</h1><h2 id="内部命令"><a href="#内部命令" class="headerlink" title="内部命令"></a>内部命令</h2><blockquote><p>集成于Shell解释器程序内部的一些特殊指令，也称内建（Built-in）命令，属于Shell的一部分，没有单独对应的系统文件，自动载入内存，可以直接使用</p></blockquote><h2 id="外部命令"><a href="#外部命令" class="headerlink" title="外部命令"></a>外部命令</h2><blockquote><p>Linux系统中能够完成特定功能的脚本文件或二进制程序，属于Shell解释器程序之外的命令，每个外部命令对于了系统中的一个文件，必须知道其文件位置，由Shell加载后才能执行<code>/bin,/usr/bin,/usr/local/bin</code>等</p></blockquote><ul><li><code>help</code>和<code>enable</code>可判断命令为内或外部命令</li></ul><pre class="line-numbers language-none"><code class="language-none">help + 参数命令 + enable<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ul><li><code>type</code>可查询到指令的内外部命令信息：有路径是外部命令，内部则会告知内嵌</li></ul><pre class="line-numbers language-none"><code class="language-none">type + 参数<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS学习笔记(4)</title>
       <link href="/2021/09/29/css-xue-xi-bi-ji-4/"/>
       <url>/2021/09/29/css-xue-xi-bi-ji-4/</url>
@@ -45,9 +64,9 @@
       
         <tags>
             
-            <tag> python </tag>
-            
             <tag> anaconda </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
@@ -219,6 +238,8 @@
       
         <tags>
             
+            <tag> git </tag>
+            
             <tag> gitee </tag>
             
             <tag> coding </tag>
@@ -226,8 +247,6 @@
             <tag> github </tag>
             
             <tag> 阿里云 </tag>
-            
-            <tag> git </tag>
             
         </tags>
       
