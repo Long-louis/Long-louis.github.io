@@ -1,7 +1,6 @@
 ---
 title: conda使用方法
 author: 下龙湾
-top: true
 categories: 后端
 tags:
   - anaconda
