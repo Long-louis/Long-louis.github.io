@@ -175,25 +175,6 @@
     
     
     <entry>
-      <title>python扩展包安装</title>
-      <link href="/2021/08/06/python-kuo-zhan-bao-an-zhuang/"/>
-      <url>/2021/08/06/python-kuo-zhan-bao-an-zhuang/</url>
-      
-        <content type="html"><![CDATA[<h3 id="安装扩展包"><a href="#安装扩展包" class="headerlink" title="安装扩展包"></a>安装扩展包</h3><pre class="line-numbers language-none"><code class="language-none">pip install package-name -i mirror-source-address<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="查看pip安装列表"><a href="#查看pip安装列表" class="headerlink" title="查看pip安装列表"></a>查看pip安装列表</h3><pre class="line-numbers language-none"><code class="language-none">pip list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="常用pip镜像源"><a href="#常用pip镜像源" class="headerlink" title="常用pip镜像源"></a>常用pip镜像源</h3><pre class="line-numbers language-none"><code class="language-none">清华：https://pypi.tuna.tsinghua.edu.cn/simple阿里云：http://mirrors.aliyun.com/pypi/simple/中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/华中理工大学：http://pypi.hustunique.com/山东理工大学：http://pypi.sdutlinux.org/豆瓣：http://pypi.douban.com/simple/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> python </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>hexo&amp;git使用教程</title>
       <link href="/2021/08/02/hexo-git-shi-yong-fang-fa/"/>
       <url>/2021/08/02/hexo-git-shi-yong-fang-fa/</url>
@@ -222,33 +203,6 @@
         <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h1 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h1><h1 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h1><p><em>斜体</em></p><p><strong>粗体</strong></p><p><em><strong>斜体加粗</strong></em></p><p><u>下划线文本</u></p><p><del>删除线文本</del></p><p>标签式写法：</p><p>I get ten times more traffic from <a href="http://google.com/" title="google">Google</a> than from [Yahoo][] or [MSN][].</p><p>[yahoo]: <a href="http://search.yahoo.com/">http://search.yahoo.com/</a>    “”yahoo search””<br>[msn]: <a href="http://search.msn.com/">http://search.msn.com/</a> “msn search”</p><p>我是^上标^</p><p>我是<del>下标</del></p><p>==高亮==</p><p>有序列表</p><ol><li>First item</li><li>Second item</li><li>Third item</li></ol><p>无序列表</p><ul><li>ha<ul><li>wa<ul><li>hei</li></ul></li></ul></li><li>haha</li><li>haha</li></ul><blockquote><p><code>也可以用</code>“-“,”+”表示无序列表</p><p>tab控制缩进</p></blockquote><h2 id="1-表格"><a href="#1-表格" class="headerlink" title="(1)表格"></a>(1)表格</h2><table><thead><tr><th align="left">name</th><th align="center">price</th><th align="right">good or bad</th></tr></thead><tbody><tr><td align="left">cola</td><td align="center">32</td><td align="right">bad</td></tr></tbody></table><h2 id="2-引用"><a href="#2-引用" class="headerlink" title="(2) 引用"></a>(2) 引用</h2><blockquote><p>小松鼠</p><blockquote><p>一二三四五</p><blockquote><p>上山打老虎</p></blockquote></blockquote></blockquote><h2 id="3-换行"><a href="#3-换行" class="headerlink" title="(3)换行"></a>(3)换行</h2><ul><li>方法一：先打两个空格再回车</li><li>方法二：在两行中间再加一行空行</li></ul><p>儿我奉陪<br>儿儿</p><h2 id="4-分割线"><a href="#4-分割线" class="headerlink" title="(4)分割线"></a>(4)分割线</h2><p>哈哈哈哈哈</p><hr><p>哈哈哈哈哈</p><hr><p>哈哈哈哈哈</p><hr><h2 id="5-代码"><a href="#5-代码" class="headerlink" title="(5)代码"></a>(5)代码</h2><p><code>import sys</code></p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> pygame <span class="token keyword">import</span> sprite<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="5-链接"><a href="#5-链接" class="headerlink" title="(5)链接"></a>(5)链接</h2><p><a href="https://markdowm/p2hp.com">https://markdowm/p2hp.com</a></p><p><a href="https://markdowm/p2hp.com">帮助文档</a></p><p>对链接进行斜体加粗的强调</p><p>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong></p><p>This is the <em><a href="https://markdown.p2hp.com/">markdown guide</a></em></p><h2 id="6-图片"><a href="#6-图片" class="headerlink" title="(6)图片"></a>(6)图片</h2><p><img src="%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84" alt="图片名字"></p>]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>多终端多平台部署</title>
-      <link href="/2021/08/02/duo-zhong-duan-bu-shu/"/>
-      <url>/2021/08/02/duo-zhong-duan-bu-shu/</url>
-      
-        <content type="html"><![CDATA[<p>仓库的名字可以随便取，最后只需修改仓库的路径与个人用户名相同即可</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> git </tag>
-            
-            <tag> gitee </tag>
-            
-            <tag> coding </tag>
-            
-            <tag> github </tag>
-            
-            <tag> 阿里云 </tag>
-            
-        </tags>
       
     </entry>
     

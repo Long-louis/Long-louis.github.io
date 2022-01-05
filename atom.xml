@@ -199,29 +199,6 @@ deactivate 环境名</summary>
   </entry>
   
   <entry>
-    <title>python扩展包安装</title>
-    <link href="https://long-louis.github.io/2021/08/06/python-kuo-zhan-bao-an-zhuang/"/>
-    <id>https://long-louis.github.io/2021/08/06/python-kuo-zhan-bao-an-zhuang/</id>
-    <published>2021-08-06T00:43:28.000Z</published>
-    <updated>2021-08-06T00:49:06.135Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;安装扩展包&quot;&gt;&lt;a href=&quot;#安装扩展包&quot; class=&quot;headerlink&quot; title=&quot;安装扩展包&quot;&gt;&lt;/a&gt;安装扩展包&lt;/h3&gt;&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    
-    <category term="python" scheme="https://long-louis.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo&amp;git使用教程</title>
     <link href="https://long-louis.github.io/2021/08/02/hexo-git-shi-yong-fang-fa/"/>
     <id>https://long-louis.github.io/2021/08/02/hexo-git-shi-yong-fang-fa/</id>
@@ -264,38 +241,6 @@ deactivate 环境名</summary>
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>多终端多平台部署</title>
-    <link href="https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/"/>
-    <id>https://long-louis.github.io/2021/08/02/duo-zhong-duan-bu-shu/</id>
-    <published>2021-08-02T11:33:18.000Z</published>
-    <updated>2021-08-03T04:49:28.367Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;仓库的名字可以随便取，最后只需修改仓库的路径与个人用户名相同即可&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-    <category term="git" scheme="https://long-louis.github.io/tags/git/"/>
-    
-    <category term="gitee" scheme="https://long-louis.github.io/tags/gitee/"/>
-    
-    <category term="coding" scheme="https://long-louis.github.io/tags/coding/"/>
-    
-    <category term="github" scheme="https://long-louis.github.io/tags/github/"/>
-    
-    <category term="阿里云" scheme="https://long-louis.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
   </entry>
   
