@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="CSS学习笔记(4), Long;Python;C;Life">
+    <meta name="keywords" content="JavaScript备忘, Long;Python;C;Life">
     <meta name="description" content="下龙湾的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>CSS学习笔记(4) | 下龙湾</title>
+    <title>JavaScript备忘 | 下龙湾</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -219,12 +219,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">CSS学习笔记(4)</h1>
+                    <h1 class="description center-align post-title">JavaScript备忘</h1>
                 </div>
             </div>
         </div>
@@ -340,8 +340,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/css/">
-                                <span class="chip bg-color">css</span>
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">前端</span>
+                            </a>
+                        
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
                             </a>
                         
                     </div>
@@ -352,8 +356,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
-                                前端
+                            <a href="/categories/%E5%90%8E%E7%AB%AF/" class="post-category">
+                                后端
                             </a>
                         
                     </div>
@@ -365,28 +369,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-09-29
+                    2022-01-05
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-12-04
+                    2022-01-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1k
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    6 分
                 </div>
                 
 
@@ -409,98 +413,190 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="HTML5和CSS3提高"><a href="#HTML5和CSS3提高" class="headerlink" title="HTML5和CSS3提高"></a>HTML5和CSS3提高</h1><h2 id="HTML5新特性"><a href="#HTML5新特性" class="headerlink" title="HTML5新特性"></a>HTML5新特性</h2><h3 id="HTML5新增的语义化标签"><a href="#HTML5新增的语义化标签" class="headerlink" title="HTML5新增的语义化标签"></a>HTML5新增的语义化标签</h3><p><code>&lt; header&gt;</code>:头部标签<br><code>&lt;nav&gt;</code>:导航标签<br><code>&lt; article&gt;</code>:内容标签<br><code>&lt; section</code>&gt;:定义文档某个区域<br><code>&lt; aside&gt;</code>:侧边栏标签<br><code>&lt; footer&gt;</code>:尾部标签</p>
-<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826203239327.png" alt="html5新增标签"></p>
-<blockquote>
-<p><strong>注意</strong><br>这种语义化标准主要是针对搜索引擎的<br>这些新标签页面中可以使用多次<br>在IE9中,需要把这些元素转换为块级元素<br>其实，我们移动端更喜欢使用这些标签<br>HTML5还增加了很多其他标签，我们后面再慢慢学</p>
+                <h1 id="获得body标签的方法"><a href="#获得body标签的方法" class="headerlink" title="获得body标签的方法"></a>获得body标签的方法</h1><ol>
+<li>使用<code>getElementById</code>得到body类数组结构，由于文档中仅有一个<code>&lt;body&gt;</code>标签，故[0]号为body标签</li>
+<li>==推荐方法==：直接使用<code>document</code>中的<code>body</code>属性获得<code>body</code>标签<h1 id="获得html根标签的方法"><a href="#获得html根标签的方法" class="headerlink" title="获得html根标签的方法"></a>获得html根标签的方法</h1>​            使用<code>document</code>中的<code>documentElement</code>属性<h1 id="获得页面中的所有元素"><a href="#获得页面中的所有元素" class="headerlink" title="获得页面中的所有元素"></a>获得页面中的所有元素</h1></li>
+<li><code>document.all</code>属性获得所有元素</li>
+<li><code>document.getElementsByTagName("*")</code>获得所有元素<h1 id="获取同一class的元素"><a href="#获取同一class的元素" class="headerlink" title="获取同一class的元素"></a>获取同一<code>class</code>的元素</h1></li>
+<li><code>document.getElementsByClassName()</code><blockquote>
+<p>此方法不兼容IE8</p>
 </blockquote>
-<h3 id="HTML5新增的多媒体标签"><a href="#HTML5新增的多媒体标签" class="headerlink" title="HTML5新增的多媒体标签"></a>HTML5新增的多媒体标签</h3><p>HTML5在不使用插件的情况下,也可以原生的支持视频格式文件的播放</p>
-<h4 id="视频-lt-video-gt"><a href="#视频-lt-video-gt" class="headerlink" title="视频<video>"></a>视频<code>&lt;video&gt;</code></h4><p>当前<code>&lt; video&gt;</code>元素支持三种视频格式：尽量使用mp4格式(所有浏览器都支持mp4，但并不都支持webm，ogg格式)</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt; video src=<span class="token string">"文件地址"</span> controls=<span class="token string">"controls"</span>&gt;&lt;/ video&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt;video controls=<span class="token string">"controls"</span> width=<span class="token string">"300"</span>&gt;
-&lt;source src=<span class="token string">"move.ogg"</span> type=<span class="token string">"video/ogg"</span>&gt;
-&lt;source src=<span class="token string">"move.mp4"</span> type=<span class="token string">"video/mp4"</span>&gt;
-您的浏览器暂不支持&lt;video&gt;标签播放视频
-&lt;video&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="lt-video-gt-常见属性"><a href="#lt-video-gt-常见属性" class="headerlink" title="<video>常见属性"></a><code>&lt;video&gt;</code>常见属性</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826212158427.png" alt="image-20210826212158427"></p>
-<h4 id="音频-lt-audio-gt"><a href="#音频-lt-audio-gt" class="headerlink" title="音频<audio>"></a>音频<code>&lt;audio&gt;</code></h4><pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt; audio src=<span class="token string">"文件地址"</span> controls=<span class="token string">"controls"</span>&gt;&lt;/ audio&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt;audio controls=<span class="token string">"controls"</span> width=<span class="token string">"300"</span>&gt;
-&lt;source src=<span class="token string">"move.mp3"</span> type=<span class="token string">"audio/mpeg"</span>&gt;
-&lt;source src=<span class="token string">"move.ogg"</span> type=<span class="token string">"audio/ogg"</span>&gt;
-您的浏览器暂不支持&lt;audio&gt;标签播放视频
-&lt;audio&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/audio.png" alt="audio"></p>
-<p>谷歌把音频的自动播放关闭了</p>
-<h4 id="新增-lt-input-gt-类型"><a href="#新增-lt-input-gt-类型" class="headerlink" title="新增<input>类型"></a>新增<code>&lt;input&gt;</code>类型</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/input.png" alt="image-20210827145550095"></p>
-<h4 id="HTML新增表单属性"><a href="#HTML新增表单属性" class="headerlink" title="HTML新增表单属性"></a>HTML新增表单属性</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/html%E8%A1%A8%E5%8D%95%E5%B1%9E%E6%80%A7.png" alt="image-20210827160100208"></p>
-<p>修改placeholder的默认颜色：</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">input::placeholder</span> <span class="token punctuation">{</span>
-           <span class="token property">color</span><span class="token punctuation">:</span> turquoise<span class="token punctuation">;</span>
-       <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="CSS3新特性"><a href="#CSS3新特性" class="headerlink" title="CSS3新特性"></a>CSS3新特性</h2><h3 id="新增选择器"><a href="#新增选择器" class="headerlink" title="新增选择器"></a>新增选择器</h3><ol>
-<li>属性选择器</li>
-</ol>
-<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.png" alt="image-20210827163630814"></p>
-<p><strong>类选择器和属性选择器 伪类选择器 权重都是 0010</strong></p>
-<p><em><strong>注意：</strong></em></p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">div[class^=icon]</span> <span class="token punctuation">{</span>
-    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>        <span class="token comment">/* 权重为0011 */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="结构伪类选择器"><a href="#结构伪类选择器" class="headerlink" title="结构伪类选择器"></a>结构伪类选择器</h3><p>结构伪类选择器主要根据文档结构来选择器元素,常用于根据父级选择器里面的子元素</p>
-<p><img src="C:\Users\NH55\AppData\Roaming\Typora\typora-user-images\image-20210827164943112.png" alt="image-20210827164943112"></p>
-<p><strong>区别:</strong></p>
+</li>
+<li><code>document.querySelector()</code>使用css的选择器语法<blockquote>
 <ol>
-<li><code>nth-child</code>对父元素里面所有孩子排序选择(序号是固定的)先找到第n个孩子,然后看看是否和E匹配</li>
-<li><code>nth-of-type</code>对父元素里面指定子元素进行排序选择。先去匹配E,然后再根据E找第n个孩子</li>
+<li>此方法兼容IE8</li>
+<li>使用该方法总会返回唯一的一个元素，如果满足条件的元素有多个，那么它只会返回第一个</li>
 </ol>
-<p>小结</p>
-<ul>
-<li>结构伪类选择器一般用于选择父级里面的第几个孩子</li>
-<li><code>nth-child</code>对父元素里面所有孩子排序选择(序号是固定的)先找到第n个孩子,然后看看是否和E匹配</li>
-<li><code>nth-of-type</code>对父元素里面指定子元素进行排序选择。先去匹配E,然后再根据E找第n个孩子<br>关于<code>nth- child(n)</code>要知道n是从0开始计算的,要记住常用的公式</li>
-<li>如果是无序列表,我们肯定用 <code>nth-child</code>更多</li>
-<li>类选择器、属性选择器、伪类选择器,权重为0010</li>
-</ul>
-<h3 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a>伪元素选择器</h3><p>伪元素选择器可以帮助我们利用CSS创建新标签元素,而不需要HTML标签,从而简化HTML结构</p>
-<table>
-<thead>
-<tr>
-<th>选择符</th>
-<th>简介</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>::before</td>
-<td>在元素内部的前面插入内容</td>
-</tr>
-<tr>
-<td>::after</td>
-<td>在元素内部的后面插入内容</td>
-</tr>
-</tbody></table>
-<ul>
-<li><code>before</code>和<code>after</code>创建一个元素,但是属于行内元素</li>
-<li>新创建的这个元素在文档树中是找不到的,所以我们称为伪元素</li>
-<li>语法: <code>element::before{}</code></li>
-<li><code>before</code>和 <code>after</code>必须有 <code>content</code>属性（可以为空白）</li>
-<li>伪元素选择器和标签选择器一样,权重为0001</li>
-</ul>
-<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E4%BC%AA%E5%85%83%E7%B4%A0%E5%9B%BE%E7%A4%BA.png" alt="image-20210906142928612"></p>
-<pre class="line-numbers language-CSS" data-language="CSS"><code class="language-CSS">/* 当我们鼠标经过了 土豆这个盒子，就让里面before遮罩层显示出来 */
-.tudou:hover::before {
-    /* 而是显示元素 */
-    display: block;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="css3盒子模型"><a href="#css3盒子模型" class="headerlink" title="css3盒子模型"></a>css3盒子模型</h3><p>CSS3中可以通过<code>box-sizing</code>来指定盒子模型,有2个值:即可指定为 content-box、border-box，这样我们计算盒子大小的方式就发生了改变，可以分成两种情况</p>
+</blockquote>
+</li>
+<li><code>document.querySelectorAll()</code>使用css的选择器语法获得所有的符合选择器的元素所构成的list<blockquote>
+<p>支持IE8<br>即使符合条件的元素只有一个，它也会返回数组                 </p>
+</blockquote>
+<h1 id="详解a标签中href-quot-javascript-quot-的几种用法"><a href="#详解a标签中href-quot-javascript-quot-的几种用法" class="headerlink" title="详解a标签中href=&quot;javascript:;&quot;的几种用法"></a>详解a标签中<code>href="javascript:;"</code>的几种用法</h1><blockquote>
+<p>参考自<a target="_blank" rel="noopener" href="https://www.cnblogs.com/newones/p/12688580.html">博客园</a></p>
+</blockquote>
+</li>
+</ol>
+<p>a标签的一种写法<code>&lt;a href="JavaScript:;"&gt;&lt;/a&gt;</code>，所以就来整理下a标签中href的几种用法。</p>
+<p>一、js 伪协议的几种调用方法（参考总结的）</p>
 <ol>
-<li><code>box-sizing; content-box</code>盒子大小为<code>width+padding+border</code>(css3之前默认的）</li>
-<li><code>box-sizing: border-box</code>盒子大小为<code>width</code> 如果盒子模型我们改为了<code>box-sizing: border-box</code>,那 <code>padding</code>和 <code>border</code>就不会撑大盒子了(前提<code> padding</code>和 <code>border</code>不会超过<code>width</code>宽度)</li>
+<li><code>"a href="javascript:js_method();"</code></li>
 </ol>
+<p>这是常用的方法，但是这种方法在传递<code>this</code>等参数的候很容易出问题，而且<code>javascript:</code>协议作为a的href属性的时候不仅会导致不必要的触发<code>windowonbeforeunload</code>事件，在IE里面更会使gif动画图片止播放。W3C标准不推荐在href里面执行javascript句</p>
+<ol start="2">
+<li><code>"a href="javascript:void(0);"onclick="js_method()"</code></li>
+</ol>
+<p>这种方法是很多网站最常用的方法，也是最周全的法，onclick方法负责执行js函数，而void是一个操符，void(0)返回undefined，地址不发生跳转。而这种方法不会像第一种方法一样直接将js方法暴露在览器的状态栏。</p>
+<ol start="3">
+<li><code>"a href="javascript:;" onclick="js_method()"</code></li>
+</ol>
+<p>这种方法跟跟2种类似，区别只是执行了一条空的js码。</p>
+<ol start="4">
+<li><code>"a href="#" onclick="js_method()"</code></li>
+</ol>
+<p> 这种方法也是网上很常见的代码，#是标签内置的一个方法，代表top的作用。所以用这种方法点击后网页后返回到页面的最顶端。</p>
+<ol start="5">
+<li><code>"a href="#" onclick="js_method();return false;"</code></li>
+</ol>
+<p>这种方法点击执行了js函数后return false，页面不发生跳转，执行后还是在页面的当前位置,不会跳转至顶部。</p>
+<ol start="6">
+<li><code>&lt;a href='javascript:todoFun(void)'&gt;删除&lt;/a&gt;</code></li>
+</ol>
+<p>这种方法在点击 a 标签时，执行一个 js 另外自定义函数 todoFun(void)。并传参 void。</p>
+<p>  <strong>综合上述，在a中调用js函数最适当的方法推荐使用:</strong></p>
+<pre class="line-numbers language-html" data-language="html"><code class="language-html">1. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:void(0);<span class="token punctuation">"</span></span> <span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js_method()<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span> 
+2. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:;<span class="token punctuation">"</span></span> <span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js_method()<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span> 
+3. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js_method();return false;<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h1 id="input文本框输入内容"><a href="#input文本框输入内容" class="headerlink" title="input文本框输入内容"></a><code>input</code>文本框输入内容</h1><p>文本框的<code>value</code>属性即为用户输入的内容</p>
+<h1 id="元素样式获取"><a href="#元素样式获取" class="headerlink" title="元素样式获取"></a>元素样式获取</h1><p><code>getComputedStyle</code>获得的元素宽度和高度只包含内容区<br><code>clientHeight</code>获得的元素宽度和高度包含内容区和内边距（padding）<br>满足<code>scrollHeight - scrollTop == clientHeight</code>说明垂直滚动条触底，同理可得水平滚动条到达右侧的等式</p>
+<h1 id="尚硅谷JS基础p112clientX问题"><a href="#尚硅谷JS基础p112clientX问题" class="headerlink" title="尚硅谷JS基础p112clientX问题"></a>尚硅谷JS基础p112<code>clientX</code>问题</h1><p><code>clientX</code>是鼠标相对于当前显示区域的坐标，而绝对定位的div坐标是相对于整个文档的右上角进行计算，故当网页文档长度超过当前可视窗口时，会产生鼠标位置和div相偏移的问题。</p>
+<p>解决方法：采用<code>pageX</code>来获取鼠标相对于整个文档的坐标。</p>
+<h1 id="js中四种不同的函数调用方法及this的区别"><a href="#js中四种不同的函数调用方法及this的区别" class="headerlink" title="js中四种不同的函数调用方法及this的区别"></a>js中四种不同的函数调用方法及this的区别</h1><p><a target="_blank" rel="noopener" href="https://www.jb51.net/article/49230.htm">脚本之家JavaScript函数的4种调用方法详解</a></p>
+<h1 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h1><ul>
+<li><p><code>typeof</code>:</p>
+<ul>
+<li><p><strong>可以判断</strong>: <code>undefined/ 数值 / 字符串 / 布尔值 / function</code></p>
+</li>
+<li><p><strong>不能判断</strong>:<code>null与object  array与object</code></p>
+<blockquote>
+<p>null 有属于自己的类型 Null，而不属于Object类型，typeof 之所以会判定为 Object 类型，是因为JavaScript 数据类型在底层都是以二进制的形式表示的，二进制的前三位为 0 会被 typeof 判断为对象类型，而 null 的二进制位恰好都是 0 ，因此，null 被误判断为 Object 类型</p>
+</blockquote>
+<blockquote>
+<p>初始赋值为null，表明该变量将要赋值为对象</p>
+</blockquote>
+<blockquote>
+<p>当对象使用完毕之后，将指向的变量再次赋值为null，可以让无用对象被浏览器回收</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p><code>instanceof</code>:</p>
+<ul>
+<li>判断对象的具体类型</li>
+</ul>
+</li>
+<li><p><code>===</code></p>
+<ul>
+<li>可以判断: undefined, null<blockquote>
+<p>因为二者的值都只有一种情况</p>
+</blockquote>
+<h1 id="原型与原型链"><a href="#原型与原型链" class="headerlink" title="原型与原型链"></a>原型与原型链</h1><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%8E%9F%E5%9E%8B%E9%93%BE.png"></li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>每个函数function都有一个prototype，即显式原型(属性)。函数的prototype属性是在定义函数时自动添加的, 默认值是一个空Object实例对象。</li>
+<li>每个实例对象都有一个__proto__，可称为隐式原型(属性)</li>
+<li>对象的隐式原型的值为其对应构造函数的显式原型的值</li>
+</ol>
+<ul>
+<li>访问一个对象的属性时，<ul>
+<li>先在自身属性中查找，找到返回</li>
+<li>如果没有, 再沿着__proto__这条链向上查找, 找到返回</li>
+<li>如果最终没找到, 返回undefined</li>
+</ul>
+</li>
+<li>别名: 隐式原型链</li>
+<li>作用: 查找对象的属性(方法)<br><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.png"></li>
+</ul>
+<ol>
+<li>instanceof是如何判断的?<blockquote>
+<ul>
+<li>表达式: A instanceof B</li>
+<li>如果B函数的显式原型对象在A对象的原型链上, 返回true, 否则返回false</li>
+</ul>
+</blockquote>
+</li>
+<li>Function是通过new自己产生的实例<h1 id="变量提升与函数提升"><a href="#变量提升与函数提升" class="headerlink" title="变量提升与函数提升"></a>变量提升与函数提升</h1></li>
+</ol>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>两种函数声明方式有所区别</strong>：<em>第一种</em>是进行函数提升，在后文声明过的函数可在前文使用。<em>第二种</em>是进行变量提升，在后文声明的函数在前文无法使用，而是显示<code>undefined</code>。</p>
+<p>先执行变量提升，后执行函数提升</p>
+<h1 id="继承模式"><a href="#继承模式" class="headerlink" title="继承模式"></a>继承模式</h1><h2 id="原型链的继承"><a href="#原型链的继承" class="headerlink" title="原型链的继承"></a>原型链的继承</h2><p>   步骤：</p>
+<ol>
+<li>定义父类型构造函数</li>
+<li>给父类型的原型添加方法</li>
+<li>定义子类型的构造函数</li>
+<li><strong>创建父类型的实例对象赋值给子类型的原型对象</strong></li>
+<li><strong>将子类型原型的构造属性设置为子类型</strong></li>
+<li>给子类型原型添加方法</li>
+<li>创建子类型的对象: 可以调用父类型的方法</li>
+</ol>
+<p>   关键：</p>
+<p>   子类型的原型为父类型的一个实例对象<br>   </p><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">  <span class="token comment">//父类型</span>
+<span class="token keyword">function</span> <span class="token function">Supper</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>supProp <span class="token operator">=</span> <span class="token string">'Supper property'</span>
+<span class="token punctuation">}</span>
+<span class="token class-name">Supper</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">showSupperProp</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>supProp<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//子类型</span>
+<span class="token keyword">function</span> <span class="token function">Sub</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>subProp <span class="token operator">=</span> <span class="token string">'Sub property'</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 子类型的原型为父类型的一个实例对象</span>
+<span class="token class-name">Sub</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Supper</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// 让子类型的原型的constructor指向子类型</span>
+<span class="token class-name">Sub</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>constructor <span class="token operator">=</span> Sub
+<span class="token class-name">Sub</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">showSubProp</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>subProp<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> sub <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Sub</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+sub<span class="token punctuation">.</span><span class="token function">showSupperProp</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// sub.toString()</span>
+sub<span class="token punctuation">.</span><span class="token function">showSubProp</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sub<span class="token punctuation">)</span>  <span class="token comment">// Sub</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p></p>
+<h2 id="实际应用所采用的方法——组合继承"><a href="#实际应用所采用的方法——组合继承" class="headerlink" title="实际应用所采用的方法——组合继承"></a>实际应用所采用的方法——组合继承</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> age</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+  <span class="token punctuation">}</span>
+  <span class="token class-name">Person</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">setName</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">function</span> <span class="token function">Student</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> age<span class="token punctuation">,</span> price</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">Person</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> name<span class="token punctuation">,</span> age<span class="token punctuation">)</span>  <span class="token comment">// 为了得到属性</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>price <span class="token operator">=</span> price
+  <span class="token punctuation">}</span>
+  <span class="token class-name">Student</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 为了能看到父类型的方法</span>
+  <span class="token class-name">Student</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>constructor <span class="token operator">=</span> Student <span class="token comment">//修正constructor属性</span>
+  <span class="token class-name">Student</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">setPrice</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">price</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>price <span class="token operator">=</span> price
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">'Tom'</span><span class="token punctuation">,</span> <span class="token number">24</span><span class="token punctuation">,</span> <span class="token number">15000</span><span class="token punctuation">)</span>
+  s<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span><span class="token string">'Bob'</span><span class="token punctuation">)</span>
+  s<span class="token punctuation">.</span><span class="token function">setPrice</span><span class="token punctuation">(</span><span class="token number">16000</span><span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span>name<span class="token punctuation">,</span> s<span class="token punctuation">.</span>age<span class="token punctuation">,</span> s<span class="token punctuation">.</span>price<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -535,8 +631,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/css/">
-                                    <span class="chip bg-color">css</span>
+                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">前端</span>
+                                </a>
+                            
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
                                 </a>
                             
                         </div>
@@ -584,6 +684,59 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2022/03/09/pyqt-pei-zhi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="在conda虚拟环境下的PyQt配置及Pycharm相关设置">
+                        
+                        <span class="card-title">在conda虚拟环境下的PyQt配置及Pycharm相关设置</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-09
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            下龙湾
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/anaconda/">
+                        <span class="chip bg-color">anaconda</span>
+                    </a>
+                    
+                    <a href="/tags/python/">
+                        <span class="chip bg-color">python</span>
+                    </a>
+                    
+                    <a href="/tags/PyQt/">
+                        <span class="chip bg-color">PyQt</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2021/12/04/linux-qa/">
                     <div class="card-image">
                         
@@ -600,9 +753,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -616,59 +769,6 @@
                     
                     <a href="/tags/linux/">
                         <span class="chip bg-color">linux</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/09/29/conda-shi-yong-fang-fa/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="conda使用方法">
-                        
-                        <span class="card-title">conda使用方法</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%90%8E%E7%AB%AF/" class="post-category">
-                                    后端
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/anaconda/">
-                        <span class="chip bg-color">anaconda</span>
-                    </a>
-                    
-                    <a href="/tags/python/">
-                        <span class="chip bg-color">python</span>
                     </a>
                     
                 </div>
