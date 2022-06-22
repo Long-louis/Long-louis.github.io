@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+  <link rel="mask-icon" href="/favicon.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"long-louis.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.12.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="css学习笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS学习笔记(4)">
+<meta property="og:url" content="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/index.html">
+<meta property="og:site_name" content="下龙湾">
+<meta property="og:description" content="css学习笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826203239327.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826212158427.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/audio.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/input.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/html%E8%A1%A8%E5%8D%95%E5%B1%9E%E6%80%A7.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.png">
+<meta property="og:image" content="c:/Users/NH55/AppData/Roaming/Typora/typora-user-images/image-20210827164943112.png">
+<meta property="og:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E4%BC%AA%E5%85%83%E7%B4%A0%E5%9B%BE%E7%A4%BA.png">
+<meta property="article:published_time" content="2022-06-22T07:36:39.122Z">
+<meta property="article:modified_time" content="2022-06-22T08:32:27.123Z">
+<meta property="article:author" content="下龙湾">
+<meta property="article:tag" content="css">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826203239327.png">
+
+
+<link rel="canonical" href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/","path":"2022/06/22/css-xue-xi-bi-ji-4/","title":"CSS学习笔记(4)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>CSS学习笔记(4) | 下龙湾</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="下龙湾" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">下龙湾</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Long's blog</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HTML5%E5%92%8CCSS3%E6%8F%90%E9%AB%98"><span class="nav-number">1.</span> <span class="nav-text">HTML5和CSS3提高</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#HTML5%E6%96%B0%E7%89%B9%E6%80%A7"><span class="nav-number">1.1.</span> <span class="nav-text">HTML5新特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML5%E6%96%B0%E5%A2%9E%E7%9A%84%E8%AF%AD%E4%B9%89%E5%8C%96%E6%A0%87%E7%AD%BE"><span class="nav-number">1.1.1.</span> <span class="nav-text">HTML5新增的语义化标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML5%E6%96%B0%E5%A2%9E%E7%9A%84%E5%A4%9A%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE"><span class="nav-number">1.1.2.</span> <span class="nav-text">HTML5新增的多媒体标签</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%86%E9%A2%91-lt-video-gt"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">视频&lt;video&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-video-gt-%E5%B8%B8%E8%A7%81%E5%B1%9E%E6%80%A7"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">&lt;video&gt;常见属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9F%B3%E9%A2%91-lt-audio-gt"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">音频&lt;audio&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E-lt-input-gt-%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">新增&lt;input&gt;类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML%E6%96%B0%E5%A2%9E%E8%A1%A8%E5%8D%95%E5%B1%9E%E6%80%A7"><span class="nav-number">1.1.2.5.</span> <span class="nav-text">HTML新增表单属性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS3%E6%96%B0%E7%89%B9%E6%80%A7"><span class="nav-number">1.2.</span> <span class="nav-text">CSS3新特性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E%E9%80%89%E6%8B%A9%E5%99%A8"><span class="nav-number">1.2.1.</span> <span class="nav-text">新增选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%93%E6%9E%84%E4%BC%AA%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8"><span class="nav-number">1.2.2.</span> <span class="nav-text">结构伪类选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%AA%E5%85%83%E7%B4%A0%E9%80%89%E6%8B%A9%E5%99%A8"><span class="nav-number">1.2.3.</span> <span class="nav-text">伪元素选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#css3%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.2.4.</span> <span class="nav-text">css3盒子模型</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="下龙湾"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">下龙湾</p>
+  <div class="site-description" itemprop="description">下龙湾的博客</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/big/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="下龙湾">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="下龙湾">
+      <meta itemprop="description" content="下龙湾的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="CSS学习笔记(4) | 下龙湾">
+      <meta itemprop="description" content="css学习笔记">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          CSS学习笔记(4)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-06-22 15:36:39 / 修改时间：16:32:27" itemprop="dateCreated datePublished" datetime="2022-06-22T15:36:39+08:00">2022-06-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">前端</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">css学习笔记</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="HTML5和CSS3提高"><a href="#HTML5和CSS3提高" class="headerlink" title="HTML5和CSS3提高"></a>HTML5和CSS3提高</h1><h2 id="HTML5新特性"><a href="#HTML5新特性" class="headerlink" title="HTML5新特性"></a>HTML5新特性</h2><h3 id="HTML5新增的语义化标签"><a href="#HTML5新增的语义化标签" class="headerlink" title="HTML5新增的语义化标签"></a>HTML5新增的语义化标签</h3><p><code>&lt; header&gt;</code>:头部标签<br><code>&lt;nav&gt;</code>:导航标签<br><code>&lt; article&gt;</code>:内容标签<br><code>&lt; section</code>&gt;:定义文档某个区域<br><code>&lt; aside&gt;</code>:侧边栏标签<br><code>&lt; footer&gt;</code>:尾部标签</p>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826203239327.png" alt="html5新增标签"></p>
+<blockquote>
+<p><strong>注意</strong><br>这种语义化标准主要是针对搜索引擎的<br>这些新标签页面中可以使用多次<br>在IE9中,需要把这些元素转换为块级元素<br>其实，我们移动端更喜欢使用这些标签<br>HTML5还增加了很多其他标签，我们后面再慢慢学</p>
+</blockquote>
+<h3 id="HTML5新增的多媒体标签"><a href="#HTML5新增的多媒体标签" class="headerlink" title="HTML5新增的多媒体标签"></a>HTML5新增的多媒体标签</h3><p>HTML5在不使用插件的情况下,也可以原生的支持视频格式文件的播放</p>
+<h4 id="视频-lt-video-gt"><a href="#视频-lt-video-gt" class="headerlink" title="视频<video>"></a>视频<code>&lt;video&gt;</code></h4><p>当前<code>&lt; video&gt;</code>元素支持三种视频格式：尽量使用mp4格式(所有浏览器都支持mp4，但并不都支持webm，ogg格式)</p>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt; video src=<span class="token string">"文件地址"</span> controls=<span class="token string">"controls"</span>&gt;&lt;/ video&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt;video controls=<span class="token string">"controls"</span> width=<span class="token string">"300"</span>&gt;
+&lt;source src=<span class="token string">"move.ogg"</span> type=<span class="token string">"video/ogg"</span>&gt;
+&lt;source src=<span class="token string">"move.mp4"</span> type=<span class="token string">"video/mp4"</span>&gt;
+您的浏览器暂不支持&lt;video&gt;标签播放视频
+&lt;video&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="lt-video-gt-常见属性"><a href="#lt-video-gt-常见属性" class="headerlink" title="<video>常见属性"></a><code>&lt;video&gt;</code>常见属性</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/image-20210826212158427.png" alt="image-20210826212158427"></p>
+<h4 id="音频-lt-audio-gt"><a href="#音频-lt-audio-gt" class="headerlink" title="音频<audio>"></a>音频<code>&lt;audio&gt;</code></h4><pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt; audio src=<span class="token string">"文件地址"</span> controls=<span class="token string">"controls"</span>&gt;&lt;/ audio&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css">&lt;audio controls=<span class="token string">"controls"</span> width=<span class="token string">"300"</span>&gt;
+&lt;source src=<span class="token string">"move.mp3"</span> type=<span class="token string">"audio/mpeg"</span>&gt;
+&lt;source src=<span class="token string">"move.ogg"</span> type=<span class="token string">"audio/ogg"</span>&gt;
+您的浏览器暂不支持&lt;audio&gt;标签播放视频
+&lt;audio&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/audio.png" alt="audio"></p>
+<p>谷歌把音频的自动播放关闭了</p>
+<h4 id="新增-lt-input-gt-类型"><a href="#新增-lt-input-gt-类型" class="headerlink" title="新增<input>类型"></a>新增<code>&lt;input&gt;</code>类型</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/input.png" alt="image-20210827145550095"></p>
+<h4 id="HTML新增表单属性"><a href="#HTML新增表单属性" class="headerlink" title="HTML新增表单属性"></a>HTML新增表单属性</h4><p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/html%E8%A1%A8%E5%8D%95%E5%B1%9E%E6%80%A7.png" alt="image-20210827160100208"></p>
+<p>修改placeholder的默认颜色：</p>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">input::placeholder</span> <span class="token punctuation">{</span>
+           <span class="token property">color</span><span class="token punctuation">:</span> turquoise<span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="CSS3新特性"><a href="#CSS3新特性" class="headerlink" title="CSS3新特性"></a>CSS3新特性</h2><h3 id="新增选择器"><a href="#新增选择器" class="headerlink" title="新增选择器"></a>新增选择器</h3><ol>
+<li>属性选择器</li>
+</ol>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.png" alt="image-20210827163630814"></p>
+<p><strong>类选择器和属性选择器 伪类选择器 权重都是 0010</strong></p>
+<p><em><strong>注意：</strong></em></p>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">div[class^=icon]</span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>        <span class="token comment">/* 权重为0011 */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="结构伪类选择器"><a href="#结构伪类选择器" class="headerlink" title="结构伪类选择器"></a>结构伪类选择器</h3><p>结构伪类选择器主要根据文档结构来选择器元素,常用于根据父级选择器里面的子元素</p>
+<p><img src="C:\Users\NH55\AppData\Roaming\Typora\typora-user-images\image-20210827164943112.png" alt="image-20210827164943112"></p>
+<p><strong>区别:</strong></p>
+<ol>
+<li><code>nth-child</code>对父元素里面所有孩子排序选择(序号是固定的)先找到第n个孩子,然后看看是否和E匹配</li>
+<li><code>nth-of-type</code>对父元素里面指定子元素进行排序选择。先去匹配E,然后再根据E找第n个孩子</li>
+</ol>
+<p>小结</p>
+<ul>
+<li>结构伪类选择器一般用于选择父级里面的第几个孩子</li>
+<li><code>nth-child</code>对父元素里面所有孩子排序选择(序号是固定的)先找到第n个孩子,然后看看是否和E匹配</li>
+<li><code>nth-of-type</code>对父元素里面指定子元素进行排序选择。先去匹配E,然后再根据E找第n个孩子<br>关于<code>nth- child(n)</code>要知道n是从0开始计算的,要记住常用的公式</li>
+<li>如果是无序列表,我们肯定用 <code>nth-child</code>更多</li>
+<li>类选择器、属性选择器、伪类选择器,权重为0010</li>
+</ul>
+<h3 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a>伪元素选择器</h3><p>伪元素选择器可以帮助我们利用CSS创建新标签元素,而不需要HTML标签,从而简化HTML结构</p>
+<table>
+<thead>
+<tr>
+<th>选择符</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>::before</td>
+<td>在元素内部的前面插入内容</td>
+</tr>
+<tr>
+<td>::after</td>
+<td>在元素内部的后面插入内容</td>
+</tr>
+</tbody></table>
+<ul>
+<li><code>before</code>和<code>after</code>创建一个元素,但是属于行内元素</li>
+<li>新创建的这个元素在文档树中是找不到的,所以我们称为伪元素</li>
+<li>语法: <code>element::before{}</code></li>
+<li><code>before</code>和 <code>after</code>必须有 <code>content</code>属性（可以为空白）</li>
+<li>伪元素选择器和标签选择器一样,权重为0001</li>
+</ul>
+<p><img src="https://gitee.com/ninestars-lake/picgo-pictures/raw/master/blog/%E4%BC%AA%E5%85%83%E7%B4%A0%E5%9B%BE%E7%A4%BA.png" alt="image-20210906142928612"></p>
+<pre class="line-numbers language-CSS" data-language="CSS"><code class="language-CSS">/* 当我们鼠标经过了 土豆这个盒子，就让里面before遮罩层显示出来 */
+.tudou:hover::before {
+    /* 而是显示元素 */
+    display: block;
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="css3盒子模型"><a href="#css3盒子模型" class="headerlink" title="css3盒子模型"></a>css3盒子模型</h3><p>CSS3中可以通过<code>box-sizing</code>来指定盒子模型,有2个值:即可指定为 content-box、border-box，这样我们计算盒子大小的方式就发生了改变，可以分成两种情况</p>
+<ol>
+<li><code>box-sizing; content-box</code>盒子大小为<code>width+padding+border</code>(css3之前默认的）</li>
+<li><code>box-sizing: border-box</code>盒子大小为<code>width</code> 如果盒子模型我们改为了<code>box-sizing: border-box</code>,那 <code>padding</code>和 <code>border</code>就不会撑大盒子了(前提<code> padding</code>和 <code>border</code>不会超过<code>width</code>宽度)</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>下龙湾
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/" title="CSS学习笔记(4)">https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/css/" rel="tag"># css</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/06/22/css-xue-xi-bi-ji-3/" rel="prev" title="CSS学习笔记(3)">
+                  <i class="fa fa-chevron-left"></i> CSS学习笔记(3)
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-solid fa-bolt"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">下龙湾</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

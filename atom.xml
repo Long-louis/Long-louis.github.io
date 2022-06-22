@@ -6,7 +6,7 @@
   <link href="https://long-louis.github.io/atom.xml" rel="self"/>
   
   <link href="https://long-louis.github.io/"/>
-  <updated>2022-03-09T07:40:08.455Z</updated>
+  <updated>2022-06-22T08:32:27.123Z</updated>
   <id>https://long-louis.github.io/</id>
   
   <author>
@@ -17,97 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>在conda虚拟环境下的PyQt配置及Pycharm相关设置</title>
-    <link href="https://long-louis.github.io/2022/03/09/pyqt-pei-zhi/"/>
-    <id>https://long-louis.github.io/2022/03/09/pyqt-pei-zhi/</id>
-    <published>2022-03-09T07:40:08.000Z</published>
-    <updated>2022-03-09T07:40:08.455Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;在conda虚拟环境中的PyQt配置&quot;&gt;&lt;a href=&quot;#在conda虚拟环境中的PyQt配置&quot; class=&quot;headerlink&quot; title=&quot;在conda虚拟环境中的PyQt配置&quot;&gt;&lt;/a&gt;在conda虚拟环境中的PyQt配置&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="anaconda" scheme="https://long-louis.github.io/tags/anaconda/"/>
-    
-    <category term="python" scheme="https://long-louis.github.io/tags/python/"/>
-    
-    <category term="PyQt" scheme="https://long-louis.github.io/tags/PyQt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript备忘</title>
-    <link href="https://long-louis.github.io/2022/01/05/javascript-bei-wang/"/>
-    <id>https://long-louis.github.io/2022/01/05/javascript-bei-wang/</id>
-    <published>2022-01-05T07:51:04.000Z</published>
-    <updated>2022-01-14T12:36:22.828Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;获得body标签的方法&quot;&gt;&lt;a href=&quot;#获得body标签的方法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="后端" scheme="https://long-louis.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-    <category term="前端" scheme="https://long-louis.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="JavaScript" scheme="https://long-louis.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux_QA</title>
-    <link href="https://long-louis.github.io/2021/12/04/linux-qa/"/>
-    <id>https://long-louis.github.io/2021/12/04/linux-qa/</id>
-    <published>2021-12-04T14:25:30.000Z</published>
-    <updated>2021-12-04T14:43:51.579Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;shell-内部命令-amp-外部命令&quot;&gt;&lt;a href=&quot;#shell-内部命令-amp-外部命令&quot; class=&quot;headerlink&quot; title=&quot;shell 内部命令&amp;amp;外部命令&quot;&gt;&lt;/a&gt;shell 内部命令&amp;amp;外部命令&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="linux" scheme="https://long-louis.github.io/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>CSS学习笔记(4)</title>
-    <link href="https://long-louis.github.io/2021/09/29/css-xue-xi-bi-ji-4/"/>
-    <id>https://long-louis.github.io/2021/09/29/css-xue-xi-bi-ji-4/</id>
-    <published>2021-09-29T06:58:00.000Z</published>
-    <updated>2021-12-04T14:26:12.801Z</updated>
+    <link href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/"/>
+    <id>https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-4/</id>
+    <published>2022-06-22T07:36:39.122Z</published>
+    <updated>2022-06-22T08:32:27.123Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;HTML5和CSS3提高&quot;&gt;&lt;a href=&quot;#HTML5和CSS3提高&quot; class=&quot;headerlink&quot; title=&quot;HTML5和CSS3提高&quot;&gt;&lt;/a&gt;HTML5和CSS3提高&lt;/h1&gt;&lt;h2 id=&quot;HTML5新特性&quot;&gt;&lt;a</summary>
-        
-      
+    <summary type="html">css学习笔记</summary>
+    
+    
+    
+    <category term="前端" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="css" scheme="https://long-louis.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS学习笔记(3)</title>
+    <link href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-3/"/>
+    <id>https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-3/</id>
+    <published>2022-06-22T07:36:39.100Z</published>
+    <updated>2022-06-22T08:33:18.330Z</updated>
+    
+    
+    <summary type="html">css学习笔记</summary>
+    
+    
+    
+    <category term="前端" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="css" scheme="https://long-louis.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS学习笔记(2)</title>
+    <link href="https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-2/"/>
+    <id>https://long-louis.github.io/2022/06/22/css-xue-xi-bi-ji-2/</id>
+    <published>2022-06-22T07:36:39.076Z</published>
+    <updated>2022-06-22T08:33:21.818Z</updated>
+    
+    
+    <summary type="html">css学习笔记</summary>
     
     
     
@@ -123,7 +78,7 @@
     <link href="https://long-louis.github.io/2021/09/29/conda-shi-yong-fang-fa/"/>
     <id>https://long-louis.github.io/2021/09/29/conda-shi-yong-fang-fa/</id>
     <published>2021-09-29T06:30:41.000Z</published>
-    <updated>2022-03-09T05:12:08.456Z</updated>
+    <updated>2022-06-22T08:27:42.437Z</updated>
     
     
       
@@ -150,70 +105,14 @@ deactivate 环境名</summary>
   </entry>
   
   <entry>
-    <title>CSS学习笔记(3)</title>
-    <link href="https://long-louis.github.io/2021/08/25/css-xue-xi-bi-ji-3/"/>
-    <id>https://long-louis.github.io/2021/08/25/css-xue-xi-bi-ji-3/</id>
-    <published>2021-08-25T06:46:00.000Z</published>
-    <updated>2021-12-04T14:26:16.549Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;CSS定位&quot;&gt;&lt;a href=&quot;#CSS定位&quot; class=&quot;headerlink&quot; title=&quot;CSS定位&quot;&gt;&lt;/a&gt;CSS定位&lt;/h1&gt;&lt;h2 id=&quot;定位组成&quot;&gt;&lt;a href=&quot;#定位组成&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="前端" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="css" scheme="https://long-louis.github.io/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS学习笔记(2)</title>
-    <link href="https://long-louis.github.io/2021/08/18/css-xue-xi-bi-ji-2/"/>
-    <id>https://long-louis.github.io/2021/08/18/css-xue-xi-bi-ji-2/</id>
-    <published>2021-08-18T06:46:00.000Z</published>
-    <updated>2021-09-06T10:11:03.543Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;CSS盒子模型&quot;&gt;&lt;a href=&quot;#CSS盒子模型&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="前端学习" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="css" scheme="https://long-louis.github.io/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
     <title>CSS学习笔记(1)</title>
     <link href="https://long-louis.github.io/2021/08/18/css-xue-xi-bi-ji-1/"/>
     <id>https://long-louis.github.io/2021/08/18/css-xue-xi-bi-ji-1/</id>
     <published>2021-08-18T05:46:00.000Z</published>
-    <updated>2021-08-25T09:45:26.810Z</updated>
+    <updated>2022-06-22T08:33:26.176Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;CSS简介&quot;&gt;&lt;a href=&quot;#CSS简介&quot; class=&quot;headerlink&quot; title=&quot;CSS简介&quot;&gt;&lt;/a&gt;CSS简介&lt;/h1&gt;&lt;h2 id=&quot;语法规范&quot;&gt;&lt;a href=&quot;#语法规范&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">css学习笔记</summary>
     
     
     
@@ -221,80 +120,6 @@ deactivate 环境名</summary>
     
     
     <category term="css" scheme="https://long-louis.github.io/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>html学习笔记</title>
-    <link href="https://long-louis.github.io/2021/08/07/html/"/>
-    <id>https://long-louis.github.io/2021/08/07/html/</id>
-    <published>2021-08-07T06:37:00.000Z</published>
-    <updated>2021-12-04T14:26:07.080Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;参考链接&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;标签缩写查询网站：&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML&quot;&gt;MDN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;学习视频教程网站：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="前端学习" scheme="https://long-louis.github.io/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="html" scheme="https://long-louis.github.io/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo&amp;git使用教程</title>
-    <link href="https://long-louis.github.io/2021/08/02/hexo-git-shi-yong-fang-fa/"/>
-    <id>https://long-louis.github.io/2021/08/02/hexo-git-shi-yong-fang-fa/</id>
-    <published>2021-08-02T11:41:49.000Z</published>
-    <updated>2021-09-29T06:59:31.772Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;hexo同步方法&quot;&gt;&lt;a href=&quot;#hexo同步方法&quot; class=&quot;headerlink&quot; title=&quot;hexo同步方法&quot;&gt;&lt;/a&gt;hexo同步方法&lt;/h2&gt;&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    
-    <category term="hexo" scheme="https://long-louis.github.io/tags/hexo/"/>
-    
-    <category term="git" scheme="https://long-louis.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown总结</title>
-    <link href="https://long-louis.github.io/2021/08/02/markdown-zong-jie/"/>
-    <id>https://long-louis.github.io/2021/08/02/markdown-zong-jie/</id>
-    <published>2021-08-02T11:41:49.000Z</published>
-    <updated>2021-08-02T11:42:09.859Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h1 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
