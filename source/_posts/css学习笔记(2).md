@@ -1,11 +1,11 @@
 ---
 title: CSS学习笔记(2)
 author: 下龙湾
-categories: 前端学习
+categories: 前端
 tags:
   - css
 toc: true 
-date: 2021-08-18 14:46:00
+description: css学习笔记
 ---
 
 # CSS盒子模型
@@ -341,7 +341,7 @@ text-shadow: h-shadow v-shadow blur color
 
 任何元素都可以浮动。不管原先是什么模式的元素,添加浮动之后具有行内块元素相似的特性
 
-- 如果块级盒子没有设置完度,默认宽度和父级一样宽,但是添加浮动后,它的大小根据内容来决定
+- 如果块级盒子没有设置宽度,默认宽度和父级一样宽,但是添加浮动后,它的大小根据内容来决定
 - 浮动的盒子中间是没有缝隙的,是紧挨着一起的
 - 行内元素同理
 
@@ -433,7 +433,7 @@ div {
 ：after方式是额外标签法的升级版。也是给父元素添加
 
 ```css
-.clearfix::after {
+.clearfix:after {
     content: "";
     display: block;
     height: 0;
@@ -450,9 +450,9 @@ div {
 #### 双伪元素清除浮动
 
 ```css
-.clearfix::before,.clearfix::after {
+.clearfix:before,.clearfix:after {
     content:"";
-    display:table; /* 转换为块级元素并在一行显示 */
+    display:table;
 }
 .clearfix:after {
     clear:both;
